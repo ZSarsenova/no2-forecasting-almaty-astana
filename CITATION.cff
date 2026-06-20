@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "Regime-conditional NO2 forecasting and adaptive conformal prediction (Almaty & Astana)"
 authors:
-  - family-names: "[YOUR SURNAME]"
-    given-names: "[YOUR GIVEN NAME]"
+  - family-names: "Sarsenova"
+    given-names: "Zhibek"
     affiliation: "Astana IT University, Kazakhstan"
 repository-code: "https://github.com/ZSarsenova/no2-forecasting-almaty-astana"
 license: MIT
@@ -11,8 +11,8 @@ preferred-citation:
   type: article
   title: "When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO2 Forecasting in Two Climatically Opposite Cities"
   authors:
-    - family-names: "[YOUR SURNAME]"
-      given-names: "[YOUR GIVEN NAME]"
+    - family-names: "Sarsenova"
+      given-names: "Zhibek"
   journal: "Sensors"
   year: 2025
   notes: "Under review"

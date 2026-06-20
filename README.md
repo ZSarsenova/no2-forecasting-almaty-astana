@@ -52,6 +52,7 @@ The authoritative numbers reported in the manuscript are listed in **`results_in
 ## Citation
 > Zhibek Sarsenova. When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO₂ Forecasting in Two Climatically Opposite Cities. *Sensors* (under review), 2025.
 
+(Edit `CITATION.cff`, `LICENSE` and this line to add your name once finalised.)
 
 ## License
 MIT — see `LICENSE`.
