@@ -50,9 +50,8 @@ The authoritative numbers reported in the manuscript are listed in **`results_in
 **Note on the +1 h persistence value.** The manuscript reports persistence R² = 0.911 at +1 h, computed on the unified 2025 test set (the same set used for every other model and horizon). An earlier exploratory file, `accuracy_y_t1.csv`, reports 0.770 for the same model because it was evaluated on a smaller, lower-variance validation subset; R² is normalised by the subset variance, so the two values describe different test sets, not different errors (the +1 h persistence RMSE is ≈ 7.1 µg/m³ in both). Use the unified-test-set value (0.911) and `results_in_paper.csv`. The +6 h and +24 h numbers are identical across all files.
 
 ## Citation
-> [AUTHORS]. When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO₂ Forecasting in Two Climatically Opposite Cities. *Sensors* (under review), 2025.
+> Zhibek Sarsenova. When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO₂ Forecasting in Two Climatically Opposite Cities. *Sensors* (under review), 2025.
 
-(Edit `CITATION.cff`, `LICENSE` and this line to add your name once finalised.)
 
 ## License
 MIT — see `LICENSE`.
