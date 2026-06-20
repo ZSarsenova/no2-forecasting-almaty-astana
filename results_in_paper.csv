@@ -1,0 +1,22 @@
+horizon,scope,model,metric,value_in_paper,source_script,note
++1h,ALL,Persistence,R2,0.911,core_conformal.py / unified test set,NOT accuracy_y_t1.csv (see note below)
++1h,ALL,GRU,R2,0.719,deep_baselines.py,
++1h,ALL,LSTM,R2,0.707,deep_baselines.py,
++6h,ALL,LSTM,R2,0.566,deep_baselines.py,
++6h,ALL,Ridge(AR),R2,0.464,core_conformal.py / pcmb_conf_experiments.py,
++6h,ALL,Persistence,R2,0.434,core_conformal.py,
++6h,ALL,LightGBM(monotone),R2,0.413,core_conformal.py,
++24h,ALL,LSTM,R2,0.410,deep_baselines.py,
++24h,ALL,Persistence,R2,0.119,pcmb_conf_experiments.py,
++6h,Astana,LSTM,R2,0.362,deep_baselines.py,
++6h,Almaty,Ridge(AR),R2,0.663,pcmb_conf_experiments.py,
++6h,ALL,LSTM_vs_Persistence,skill,0.206,stats_and_peaks.py,"95% CI [0.127,0.279], DM p<0.001"
++6h,Almaty,LightGBM(mono)_vs_Persistence,skill,-0.245,stats_and_peaks.py,boosting significantly worse
++6h,Astana,LSTM_vs_Persistence,skill,0.306,stats_and_peaks.py,
++6h,Astana,Persistence,F1,0.441,exceedance_v2.py,best episode detection in Astana
++6h,Astana,LSTM,F1,0.098,exceedance_v2.py,RNN smooths peaks
++6h,Almaty,point,POD,0.718,exceedance_v2.py,
++6h,Almaty,adaptive_conformal_upper,POD,0.978,exceedance_v2.py,
++6h,ALL,marginal_conformal,mean_abs_cov_err,0.057,core_conformal.py,prior-art baseline (WaveCatBoost-style)
++6h,ALL,static_regime_conformal,mean_abs_cov_err,0.047,core_conformal.py,
++6h,ALL,adaptive_regime_conformal,mean_abs_cov_err,0.004,core_conformal.py,proposed
