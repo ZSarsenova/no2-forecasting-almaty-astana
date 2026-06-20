@@ -41,7 +41,7 @@ Place `model_table_NO2_full.csv` in your working folder, then run (in Colab, aft
 Each script reads from / writes results to a Google Drive folder (paths are set at the top of each file); fix the folder path to your own. Random seed is fixed (42); library versions are pinned in `requirements.txt`.
 
 ## Citation
-> [AUTHORS]. When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO₂ Forecasting in Two Climatically Opposite Cities. *Sensors* (under review), 2025.
+> ZHIBEK SARSENOVA. When the Regime Picks the Model: A Skill-Based Benchmark and Regime-Conditional Conformal Prediction for Hourly NO₂ Forecasting in Two Climatically Opposite Cities. *Sensors* (under review), 2025.
 
 ## License
 MIT — see `LICENSE`.
